@@ -1,10 +1,10 @@
 {
-  "devToolsPort": 19002,
+  "devToolsPort": 19003,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 20909,
+  "packagerPid": 21947,
   "expoServerNgrokUrl": "https://2p-v5y.sharaf-innovazions.connect.exp.direct",
   "packagerNgrokUrl": "https://packager.2p-v5y.sharaf-innovazions.connect.exp.direct",
-  "ngrokPid": 20930,
+  "ngrokPid": 21962,
   "webpackServerPort": null
 }
