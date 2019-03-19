@@ -1,5 +1,5 @@
 # connect-react-native
-This is a demo react-native social media app that consumes opem REST APIs
+This is a demo react-native social media app that consumes open REST APIs
 
 
 ### Prerequisites
@@ -9,7 +9,7 @@ This is a demo react-native social media app that consumes opem REST APIs
 ```
 npm install -g expo-cli (or yarn global add expo-cli).
 ```
-if any permission issues are encountered, try with sudo
+if any permission issues, please try with sudo
 
 
 ## Install expo client app on the device
@@ -36,7 +36,17 @@ expo start
 
 scan the QR code using device camera to view the app on mobile device
 
+### Code
+```
+Entry Point - navigation/AppNavigator.js
 
+screens - User List, Profile and Related screens
+
+components - Reusable components
+
+constants - Global variables and helper functions
+
+ ```
 
 
 
