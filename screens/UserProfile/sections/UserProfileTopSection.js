@@ -34,8 +34,8 @@ export default class UserProfileTopSection extends React.Component {
                         <Text>{this.props.email}</Text>
                         <Text>{this.props.website}</Text>
                         <Text>{this.props.company.name}</Text>
-                        <View style={{ flexDirection: 'row', flexWrap: 'wrap', alignItems: "center" }}>
-                            <Icon.Ionicons name={CommonHelpers.getIonIconName("call")} size={18} />
+                        <View style={{ flexDirection: 'row', flexWrap: 'wrap', alignItems: "center", marginTop: 10 }}>
+                            <Icon.Ionicons name={CommonHelpers.getIonIconName("call")} size={18} style={{paddingRight: 3}}/>
                             <Button color={Colors.primaryColor} onPress={() => { }} title="Call Now"></Button>
                         </View>
                     </View>

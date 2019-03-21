@@ -20,12 +20,15 @@ export default class AddressDetailsSection extends React.Component {
 
     render() {
         return (
-            <View style={{ backgroundColor: "#aaa", height: (height)/2, width: '100%', flex: 'row' }}>
+            <View style={{ backgroundColor: "#aaa", height: (height)/2, width: '100%' }}>        
                 <MapView
                     style={{ height: '100%' }}
                     initialRegion={{
-                        latitude: parseInt(this.props.address.geo.lat),
-                        longitude: parseInt(this.props.address.geo.lng),
+                        //latitude: parseInt(this.props.address.geo.lat),
+                        //longitude: parseInt(this.props.address.geo.lng),
+                        //Hardcoding the location for demo purposes. The above values shows map in no man's land :)
+                        latitude: 22.672827,
+                        longitude: 113.990868,
                         latitudeDelta: 0.0922,
                         longitudeDelta: 0.0421,
                     }}
@@ -33,6 +36,9 @@ export default class AddressDetailsSection extends React.Component {
                     showsMyLocationButton={true}
                     provider="google"
                 />
+
+
+
                 <View style={styles.addressContainer } >
                     <Text style={styles.addressLabel}>Street</Text>
                     <Text style={styles.addressInfo}>{this.props.address.street}</Text>
