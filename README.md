@@ -38,16 +38,19 @@ scan the QR code using device camera to view the app on mobile device
 
 ### Code
 ```
-Entry Point - navigation/AppNavigator.js
+Navigation - navigation/AppNavigator.js
 
-screens - User List, Profile and Related screens
+## Important Folders
+
+screens - Home (UserList), Profile and Related screens
 
 components - Reusable components
 
 constants - Global variables and helper functions
 
  ```
-
-
-
+To open published app directly on expo client, use the below URL
+```
+https://exp.host/@sharaf.innovazions/connect
+```
 
